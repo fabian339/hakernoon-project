@@ -1,0 +1,114 @@
+
+.post-title {
+    /* margin-bottom: 0px;
+    margin-top: 0px;
+    /* margin: 0.67em 0px; */
+    /* grid-column: 1 / -1;  */
+    font-size: 2.5em;
+    color: rgb(60, 60, 59);
+    text-align: center;
+    padding: 0 45px;
+}
+
+
+.post-date {
+    margin-left: 0px;
+    padding: 4px 0px;
+    color: rgb(60, 60, 59);
+    transition: color 200ms ease 0s;
+    text-decoration: none;
+}
+
+.number-read{
+    background: rgb(246, 247, 249);
+    color: rgb(60, 60, 59);
+    padding: 4px 10px;
+    margin: 0px 10px;
+    /* grid-template-columns: auto 1fr; */
+    /* display: grid; */
+}
+
+.bookmark{
+    margin-left: auto;
+    padding: 0px;
+    transition: all 0.3s ease 0s;
+    top: 5px;
+    right: 0px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+}
+
+.fa-star{
+    font-weight: 900;
+}
+
+.fa-bookmark{
+    font-weight: 300;
+}
+
+.reactions{
+    display: flex;
+    /* -webkit-box-align: center;
+    align-items: center; */
+}
+
+.total{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.emojis-icons{
+    display: flex;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+.emoji-container{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-right: 7px;
+    position: relative;
+}
+
+.emoji{
+    display: flex;
+    height: 20px;
+    filter: grayscale(1);
+    opacity: 0.5;
+    transform: scale(1);
+    transition: all 120ms ease-in-out 0s;
+    cursor: pointer;
+}
+
+.post-img{
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s ease 0s;
+}
+
+.paragraph{
+    min-width: 0px;
+    margin: 0px;
+    overflow-wrap: break-word;
+    line-height: 35px;
+}
+
+.youtube-container{
+    display: flex;
+    /* flex-direction: row;
+    flex-grow: 1;
+    position: relative;
+    padding-bottom: 105px; */
+    padding-top: 25px;
+    /* height: 0px; */
+}

@@ -49,7 +49,7 @@ export class Nav extends Component {
                 </AppBar>
                 <div style={{width: "100%", height: "45px", backgroundColor: "rgb(245, 236, 67)"}}>
                     <div>
-                        <a style={styles.spectra} href="https://bit.ly/2PPkdME" target="_blank" rel="sponsored">
+                        <a style={styles.spectra} href="https://bit.ly/2PPkdME" target="_blank" rel="noreferrer">
                             <img style={{ marginRight: '10px', width: '25px', borderRadius: '2px'}} src="https://hackernoon.com/images/img-8i133ho.png" alt="Particle ad" />
                             Join 3500 Developers at Spectra March 17th
                         </a>
