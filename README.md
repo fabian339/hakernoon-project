@@ -1,70 +1,38 @@
-# Getting Started with Create React App
 link: http://hacker-noon-marcos.surge.sh/
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+<h1 align="center">
+  <a href="https://hackernoon.com/"><img src="https://i.postimg.cc/jq3Hxdvw/Screen-Shot-2021-03-12-at-1-06-38-PM.png" alt="ChristmasTownVR" width=500></a>
+  <br>
+  Hacker Noon - Project
+  <br>
+</h1>
 
-### `yarn start`
+  This Hacker Noon project was supposed to be a simple post layout similar to[Hacker Noon Official Site](https://hackernoon.com/). As a developer, I really liked the format, layout, and style used at the [Hacker Noon Site](https://hackernoon.com/), and so I decided to implement sort of a duplication of their site.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h1 align="center">
+  <br>
+  <a href="http://hacker-noon-marcos.surge.sh/"><img src="https://i.postimg.cc/wTGYQJ2q/Screen-Shot-2021-03-12-at-1-06-11-PM.png" alt="hacker-noon"></a>
+</h1>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+  As you can see, this layout looks really similar to the [Hacker Noon Site](https://hackernoon.com/). I used React and React Router to allow navigation between routes. I duplicated the post component as I only had one post object. The object was added to a JSON file, to then gather the data and then on click move to the ViewPost route. I also use functional and class-based components as well as React component object style and CSS.
 
-### `yarn test`
+## Description
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Having a layout to illustrate the post to users.
 
-### `yarn build`
+  <a href="http://hacker-noon-marcos.surge.sh/step-by-step-guide-to-create-3-different-types-of-loading-screens-in-react-lu2633nd"><img src="https://i.postimg.cc/762njv8t/Screen-Shot-2021-03-12-at-1-19-33-PM.png" alt="hacker-noon"></a>
+  
+  This layout is similar to the one used on the [Hacker Noon Site](https://hackernoon.com/), however, it is not the same. I tried to implement a Grid system provided by Material UI. The [Hacker Noon Site](https://hackernoon.com/) use a 3 column row Grid system in always all pages.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Error Handler
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  <a href="http://hacker-noon-marcos.surge.sh/step-by-step-guide-to-create-3-different-types-of-loading-screens-in-react-lu2633nd"><img src="https://i.postimg.cc/PJn9RzcZ/Screen-Shot-2021-03-12-at-1-05-53-PM.png" alt="hacker-noon"></a>
+  
+  This page will not show in the url as is part of surge.sh testing platform. But, I implemented an error checking that will basically check if the post actually exists in the JSON file. I used the "slug" to be the parameter on the url as it is the way used by Hacker Noon.
 
-### `yarn eject`
+## Challenges
+This project was really fun to work on, however, I really did not have the time to put my all into it. Because of work, I have very limited free time and this was my main challenge as I really wanted to do more. As you can see, the project works on desktop and laptops, but really looks bad on mobile devices. I did not have the proper time to make it mobile compatible. 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for reading if you got this far!
