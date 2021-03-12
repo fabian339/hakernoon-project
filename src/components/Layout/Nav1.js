@@ -2,15 +2,13 @@ import React, { Component } from 'react'
 // import Link from 'react-router-dom/Link'
 import Typography from '@material-ui/core/Typography';
 
-// MUI stuff
+// MUI
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Button from '@material-ui/core/Button';
-
-
 const Link = require("react-router-dom").Link
 
-
+// first nav class-based component
 export class Nav extends Component {
     state = {
         anchorEl: null,
@@ -54,6 +52,7 @@ export class Nav extends Component {
     }
 }
 
+// component style object
 const styles = {
     navContainer: {
         backgroundColor: "rgb(0, 255, 0)"
@@ -66,11 +65,6 @@ const styles = {
     title: {
         flexGrow: 1,
       },
-    menuItem: {
-        fontSize: "13px",
-        fontWeight: "600",
-        color: "dimgray" ,
-    },
     form: {
         position: 'relative',
         marginRight: '1rem',

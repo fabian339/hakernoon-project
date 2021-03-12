@@ -92,8 +92,13 @@
 .post-img{
     max-width: 100%;
     height: auto;
+    margin-bottom: 30px;
+}
+
+.post-img:hover{
     cursor: pointer;
-    transition: transform 0.2s ease 0s;
+    transform: scale(1.01);
+    transition: all 0.5s ease-in-out;
 }
 
 .paragraph{
@@ -101,6 +106,7 @@
     margin: 0px;
     overflow-wrap: break-word;
     line-height: 35px;
+    font-size: 1.4em;
 }
 
 .youtube-container{
@@ -111,4 +117,9 @@
     padding-bottom: 105px; */
     padding-top: 25px;
     /* height: 0px; */
+}
+
+.bio{
+    padding: 16px 20px 5px 0;
+    line-height: 27px;
 }

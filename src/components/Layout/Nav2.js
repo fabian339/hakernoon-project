@@ -10,7 +10,7 @@ import Button from '@material-ui/core/Button';
 
 const Link = require("react-router-dom").Link
 
-
+// second nav class-based component
 export class Nav extends Component {
     
     render() {
@@ -60,6 +60,7 @@ export class Nav extends Component {
     }
 }
 
+// component style object
 const styles = {
     navContainer: {
         backgroundColor: "rgb(0, 59, 0)",
