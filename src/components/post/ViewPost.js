@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 // import Paper from '@material-ui/core/Paper';
 import ReactHtmlParser from 'react-html-parser'; 
 import Grid from '@material-ui/core/Grid';
-import './post.css'
+import '../../styles/post.css'
 const data = require('../../data/data.json')
 
 //Class-based component

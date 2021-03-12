@@ -1,4 +1,4 @@
-import './App.css';
+import './styles/App.css';
 import React from 'react'
 import FirstNavbar from './components/Layout/Nav1';
 import SecondNavbar from './components/Layout/Nav2';
